@@ -5,10 +5,12 @@ const cors = require("cors");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: "http://localhost:4200"
 };
 
 app.use(cors(corsOptions));
+// app.use(express.static('public'));
+app.use('/api/v1/', express.static('public'));
 
 // parse requests of content-type - application/json
 app.use(bodyParser.json());
@@ -35,10 +37,10 @@ app.get("/", (req, res) => {
   res.json({ message: "Welcome to bezkoder application." });
 });
 
-require("./app/routes/turorial.routes")(app);
+require("./app/routes/project.routes")(app);
 
 // set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
