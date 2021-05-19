@@ -1,0 +1,6 @@
+{
+  "env": {
+    "PORT": 3000,
+    "MONGO_DEFAULT_DATABASE": "elsa-website"
+  }
+}
