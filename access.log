@@ -19,3 +19,7 @@
 ::1 - - [20/May/2021:13:04:09 +0000] "GET /api/v1/ HTTP/1.1" 200 28146 "http://localhost:3000/api/v1" "PostmanRuntime/7.28.0"
 ::1 - - [20/May/2021:13:04:47 +0000] "GET /api/v1/thumbnails/homepage HTTP/1.1" 200 3346 "-" "PostmanRuntime/7.28.0"
 ::1 - - [20/May/2021:13:14:55 +0000] "GET /api/v1/thumbnails/homepage HTTP/1.1" 200 - "-" "PostmanRuntime/7.28.0"
+::1 - - [20/May/2021:13:24:41 +0000] "GET /api/v1/thumbnails/homepage HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
+::1 - - [20/May/2021:13:24:41 +0000] "GET /api/v1/thumbnails/homepage HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
+::1 - - [20/May/2021:13:24:46 +0000] "GET /api/v1/projectDetails/italy-at-frieze HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
+::1 - - [20/May/2021:13:24:50 +0000] "GET /api/v1/projectDetails/next/italy-at-frieze HTTP/1.1" 304 - "http://localhost:4200/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"

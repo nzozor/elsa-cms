@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"elsa-website.projects"}],"uuid":"54a12e1c39174d938a6029d63a0e1155"}
