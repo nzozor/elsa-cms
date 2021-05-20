@@ -30,7 +30,8 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(helmet());
 app.use(compression());
-app.use(morgan('combined', { stream: accessLogStream}) );
+app.use(morgan('combined', { stream: accessLogStream}) ); // logging in file
+app.use(morgan('combined')); // logging in console
 
 
 const db = require("./app/models");
@@ -49,7 +50,7 @@ db.mongoose
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to bezkoder application." });
+  res.json({ message: "Welcome to Nick restful Api." });
 });
 
 require("./app/routes/project.routes")(app);
