@@ -15,11 +15,11 @@ const accessLogStream = fs.createWriteStream(path.join(__dirname, 'access.log'),
 const app = express();
 // const privateKey = fs.readFileSync('server.key');
 // const certificate = fs.readFileSync('server.cert');
-var corsOptions = {
-  origin: "http://localhost:4200"
-};
+// var corsOptions = {
+//   origin: "http://localhost:4200"
+// };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 // app.use(express.static('public'));
 app.use('/api/v1/', express.static('public'));
 
