@@ -1,1 +1,0 @@
-{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"beauti-cms.strapi_administrator"},{"v":{"$numberInt":"2"},"unique":true,"key":{"username":{"$numberInt":"1"}},"name":"username_1","background":true,"ns":"beauti-cms.strapi_administrator"}],"uuid":"418274ea42404694a0e9f69789a93b8f"}
