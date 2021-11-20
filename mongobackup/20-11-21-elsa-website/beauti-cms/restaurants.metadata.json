@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"beauti-cms.restaurants"},{"v":{"$numberInt":"2"},"unique":true,"key":{"slug":{"$numberInt":"1"}},"name":"slug_1","ns":"beauti-cms.restaurants","background":true}],"uuid":"0dd1130921fc4b41bdc884ae735daec9"}
